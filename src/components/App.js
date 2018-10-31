@@ -6,7 +6,9 @@ class App extends Component {
             <section className="hero is-info is-fullheight">
                 <div className="hero-body">
                     <div className="container">
-                        <h1 className="title">Boiler Plate</h1>
+                        <h1 className="title">
+                            <i class="fas fa-cat" /> Boiler Plate
+                        </h1>
                         <h2 className="subtitle">Create React App, Bulma CSS, Webpack, Serverless, Font Awesome</h2>
                     </div>
                 </div>
