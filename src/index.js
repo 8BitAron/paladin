@@ -1,9 +1,14 @@
 import React from 'react'
+import { render } from 'react-dom'
+import { Provider } from 'react-redux'
+import { ConnectedRouter } from 'connected-react-router'
+import store, { history } from './store'
+
 import ReactDOM from 'react-dom'
 
 import '@fortawesome/fontawesome-free/css/all.min.css'
-
 import './index.scss'
+
 import App from './components/App'
 import * as serviceWorker from './serviceWorker'
 
