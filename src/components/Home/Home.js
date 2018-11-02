@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class App extends Component {
+export default class Home extends Component {
     render() {
         return (
             <section className="hero is-info is-fullheight">
@@ -10,14 +10,13 @@ class App extends Component {
                             <i className="fas fa-cat" /> Boiler Plate
                         </h1>
                         <h2 className="subtitle">
-                            Create React App, Bulma CSS, Font Awesome, Webpack, Redux, React Router
+                            Create React App w/ React Router, Redux & Thunk, Webpack 4, Bulma CSS Framework, Font
+                            Awesome 4
                         </h2>
-                        <p>Extra Credit Serverless and Markdown</p>
+                        <p>Extra Credit Serverless and Markdown + Tutorial</p>
                     </div>
                 </div>
             </section>
         )
     }
 }
-
-export default App
