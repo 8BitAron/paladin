@@ -1,5 +1,12 @@
 Boiler Plate Create React App w/ React Router, Redux & Thunk, Webpack 4, Bulma CSS Framework, Font Awesome 4
 
+## Dev Requirements
+
+Install node and yarn
+
+## Setup
+Clone the repo, checkout develop branch, run yarn 
+
 ## Available Scripts
 In the project directory, you can run:
 
