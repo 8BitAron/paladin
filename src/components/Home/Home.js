@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 
 import { up, down } from '../../actions/counter'
 
-class Home extends Component {
+export class Home extends Component {
     up() {
         const { dispatch } = this.props
         dispatch(up())
