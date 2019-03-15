@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+$family-sans-serif: 'Roboto', sans-serif;
+
+// Importing all of Bulma
+@import 'bulma/bulma.sass';
+
+.hero.is-fullheight.has-footer {
+  min-height: calc(100vh - 5.25rem); // bulma nav default 3.25rem + footer 2rem
+}
+
+footer {
+  background-color: $success;
+  color: hsla(0, 0%, 100%, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  strong {
+    color: hsla(0, 0%, 100%, 0.5);
+  }
+}
